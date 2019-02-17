@@ -1,4 +1,8 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 body {
+  /* background-color: #eee; */
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -12,3 +16,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.add-div{
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.add-content{
+  margin: 0 auto;
+}
+.table td, .table th{
+  border: none;
+}
+
+.loader-container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 15px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+.card-deck{
+  width: 100%;
+  margin-left: 0px !important;
+}
+
+.add-content div{
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+

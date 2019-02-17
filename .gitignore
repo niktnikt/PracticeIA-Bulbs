@@ -11,6 +11,12 @@
 # production
 /build
 
+#dependencies
+/package-lock.json
+/node_modules
+/server/node_modules
+/server/package-lock.json
+
 # misc
 .DS_Store
 .env.local
